@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script defer src="js/chief-slider.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          const slider = new ChiefSlider('.slider', {
+            loop: true,
+            autoplay: true,
+            interval: 7000,
+          });
+        });
+      </script>
+    <title>Black Sea</title>
+</head>
+<body>
+
+    <header>
+        <h1>Black Sea</h1>
+        <nav>
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li>/</li>
+                <li><a href="">ABOUT ME</a></li>
+                <li>/</li>
+                <li><a href="">PORTFOLIO</a></li>
+                <li>/</li>
+                <li><a href="">CONTACT ME</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="slider">
+        <div class="slider__container">
+          <div class="slider__wrapper">
+            <div class="slider__items">
+              <div class="slider__item">
+                    <span>WE NEED THE TONIC OF <br> WILDNESS</span>
+                    <button>Read more</button>
+              </div>
+              <div class="slider__item">
+                    <span>WE NEED THE TONIC OF <br> WILDNESS</span>
+                    <button>Read more</button>
+              </div>
+              <div class="slider__item">
+                    <span>WE NEED THE TONIC OF <br> WILDNESS</span>
+                    <button>Read more</button>
+              </div>
+              <div class="slider__item">
+                    <span>WE NEED THE TONIC OF <br> WILDNESS</span>
+                    <button>Read more</button>
+              </div>
+              <div class="slider__item">
+                    <span>WE NEED THE TONIC OF <br> WILDNESS</span>
+                    <button>Read more</button>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        <!-- Кнопки для перехода к предыдущему и следующему слайду -->
+        <ol class="slider__indicators">
+            <li data-slide-to="0"></li>
+            <li data-slide-to="1"></li>
+            <li data-slide-to="2"></li>
+            <li data-slide-to="3"></li>
+            <li data-slide-to="4"></li>
+          </ol>
+      </div>
+
+      <div class="content">
+          <h2>At the same time that we are earnest to explore <br>
+            & learn all things</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+            </p>
+            <div class="pictures">
+                <img src="img/basket.png" alt="">
+                <img src="img/world.png" alt="">
+                <img src="img/bag.png" alt="">
+            </div>
+      </div>
+
+      <div class="review">
+        <div class="review_block">
+            <img src="img/avatar.png" alt="">
+            <div class="name">
+              <h3>DHAVAN</h3>
+              <img src="img/“.png" alt="">
+            </div> 
+        </div>
+        <div class="text">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae eveniet ullam nobis quia dolorum exercitationem aut aperiam, amet culpa? Incidunt a quidem doloribus adipisci in nulla perferendis? Repudiandae, magni deleniti? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias quibusdam quaerat possimus accusamus beatae, fugit cum commodi, eius ab quia facilis! Architecto corrupti est excepturi sapiente molestiae voluptate magni odio.</p>
+        </div>   
+    </div>
+
+    <div class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49644.53611982477!2d47.8744579364938!3d56.639878738801215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x415994cee334e033%3A0xdaebce5764135883!2z0JnQvtGI0LrQsNGALdCe0LvQsCwg0KDQtdGB0L8uINCc0LDRgNC40Lkg0K3Quw!5e0!3m2!1sru!2sru!4v1637258423261!5m2!1sru!2sru" width="100%"  style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        
+        <form class="contact_form" action="" name="contact_form">
+          <input type="text" name="name" />
+          <input type="text" name="email" />
+          <input type="text" name="message" />
+          <button><img src="img/bt.png" alt=""></button>
+        </form>
+      </div>
+    </div>
+
+</body>
+</html>
