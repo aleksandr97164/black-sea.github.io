@@ -49,8 +49,13 @@ body{
     font-family: 'Helvetica LT Std';
 }
 
-header{
+.header_bg{
     background-color: #4b96a1;
+}
+
+header{
+    max-width: 1024px;
+    margin: 0 auto;
     display: flex;
     height: 87px;
     justify-content: space-between;
@@ -69,6 +74,9 @@ header{
             color: #fff;
             display: inline-block;
             margin-right: 22px;
+            &:last-child{
+                margin-right: 8px;
+            }
             a{
                 font-family: 'Helvetica LT Std';
                 font-size: 18px;
@@ -334,32 +342,4 @@ header{
 
 .map{
     width: 100%;
-    position: relative;
-    display: inline-block;
-    iframe{
-    }
-  
-        .form{
-            max-width: 430px;
-            width: 100%;
-            max-height: 430px; 
-            height: 100%;
-            border-radius: 215px; 
-            position: absolute;
-            margin: auto;
-            z-index: 2;
-            background-color:rgba(255,255,255,0.5);
-            .contact_form{
-                display: flex;
-                align-items: center;
-                flex-direction: column;
-                input{
-                    margin-bottom: 13px;
-                }
-                button{
-                    background-color: transparent;
-                    border: none;
-                }
-            }
-        }
 }
